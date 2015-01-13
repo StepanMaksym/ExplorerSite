@@ -14,11 +14,16 @@ namespace ExplorerLviv
                 "database/{name}",
                 new {controller = "Database", action = "Search", name = UrlParameter.Optional});
 
+            routes.MapRoute("Cuisine",
+                "cuisine/{name}",
+                new {controller = "Cuisine", action = "Search", name = UrlParameter.Optional });
+
+
             // Parameter defaults
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Database", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

@@ -14,6 +14,7 @@ namespace ExplorerLviv.Controllers
         // GET: /Cuisine/
 
 
+        [ActionName("List")]
         public ActionResult Search(string name = "Rembo")
         {
             if (!String.IsNullOrWhiteSpace(name))
@@ -33,6 +34,11 @@ namespace ExplorerLviv.Controllers
             }
 
             return View("Cuisine");
+        }
+
+        public ActionResult test()
+        {
+            return Content("Test");
         }
     }
 }

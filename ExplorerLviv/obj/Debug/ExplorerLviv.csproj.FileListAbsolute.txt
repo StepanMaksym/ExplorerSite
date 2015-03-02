@@ -83,4 +83,3 @@ D:\ExplorerSite\ExplorerLviv\ExplorerLviv\bin\zh-Hant\System.Spatial.resources.d
 D:\ExplorerSite\ExplorerLviv\ExplorerLviv\obj\Debug\ExplorerLviv.dll
 D:\ExplorerSite\ExplorerLviv\ExplorerLviv\obj\Debug\ExplorerLviv.pdb
 D:\ExplorerSite\ExplorerLviv\ExplorerLviv\bin\ExplorerLviv.dll.config
-D:\ExplorerSite\ExplorerLviv\ExplorerLviv\obj\Debug\ExplorerLviv.csprojResolveAssemblyReference.cache

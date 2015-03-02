@@ -15,8 +15,8 @@ namespace ExplorerLviv
                 new {controller = "Database", action = "Search", name = UrlParameter.Optional});
 
             routes.MapRoute("Cuisine",
-                "cuisine/{name}",
-                new {controller = "Cuisine", action = "Search", name = UrlParameter.Optional });
+                "cuisine",
+                new {controller = "Cuisine", action="test"});
 
 
             // Parameter defaults
